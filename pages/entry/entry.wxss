@@ -1,7 +1,6 @@
-.entry-container {
-  min-height: 100%;
-  padding: 0;
+page{
+    background-color: #FFFFFF;
 }
-.entry-title {
-  
+image{
+    margin: 4px 0;
 }

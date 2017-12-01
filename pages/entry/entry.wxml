@@ -1,8 +1,18 @@
-<view class="entry-container">
-  <view class="entry-title">
-    <text>{{item.title}}</text>
+<view class="page">
+  <view class="page__hd">
+    <view class='page__title'>{{item.publishdate}}{{item.subject}}作业</view>
+    <view class='page__desc'>{{item.teacher}}老师布置</view>
   </view>
-  <view class="entry-content">
-    <text>{{item.content}}</text>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class='weui-article__section'>
+        <view class='weui-article__p' wx:if="{{item.screenshot}}">
+          <image class="weui-article__img" src="{{item.screenshot}}" mode="aspectFit" style="height: 300px" />
+        </view>
+      </view>
+      <view class='weui-article__section'>
+        <text class='weui-article__p'>{{item.content}}</text>
+      </view>
+    </view>
   </view>
 </view>

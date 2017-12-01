@@ -15,40 +15,40 @@
     border-bottom-width: 2rpx;
 }
 .time-card.has-imgs {
-    height: 610rpx;
+    height: 710rpx;
 }
 .time-card.has-imgm {
-    height: 810rpx;
+    height: 910rpx;
 }
 .time-card.has-imgl {
-    height: 1010rpx;
+    height: 1110rpx;
 }
 .time-card.no-imgs {
-    height: 210rpx;
+    height: 250rpx;
 }
 .time-card.no-imgm {
-    height: 410rpx;
+    height: 450rpx;
 }
 .time-card.no-imgl {
-    height: 610rpx;
+    height: 650rpx;
 }
 .navigator.no-imgs {
-    height: 210rpx;
+    height: 250rpx;
 }
 .navigator.no-imgm {
-    height: 410rpx;
+    height: 450rpx;
 }
 .navigator.no-imgl {
-    height: 610rpx;
+    height: 650rpx;
 }
 .navigator.has-imgs {
-    height: 610rpx;
+    height: 710rpx;
 }
 .navigator.has-imgm {
-    height: 810rpx;
+    height: 910rpx;
 }
 .navigator.has-imgl {
-    height: 1010rpx;
+    height: 1110rpx;
 }
 .time-card-img {
   width: 750rpx;
