@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.6.6",
 	"appid": "touristappid",
-	"projectname": "yxxg",
+	"projectname": "yxxg_git",
 	"condition": {
 		"search": {
 			"current": -1,
