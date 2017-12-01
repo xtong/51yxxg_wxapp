@@ -1,0 +1,41 @@
+/**index.wxss**/
+
+.placeholder{
+    margin: 5rpx;
+    padding: 0 10rpx;
+    text-align: center;
+    background-color: #EBEBEB;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #cfcfcf;
+}
+.apptitle{
+  text-align: center;
+}
+.applogo{
+  align-items: center;
+}
+.inputplace{
+  margin: 5rpx;
+  padding: 0 10rpx;
+  text-align: left;
+  height: 3em;
+  border-color: white;
+  border-style: solid;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 2rpx;
+}
+.blankthick{
+  margin: 5rpx;
+  padding: 0 10rpx;
+  text-align: left;
+  height: 3em;
+}
+.blankslim{
+  margin: 5rpx;
+  padding: 0 10rpx;
+  text-align: left;
+  height: 0.1em;
+}

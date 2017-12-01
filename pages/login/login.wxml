@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page__bd page__bd_spacing">
+      <view class='weui-flex'><view class='weui-flex__item blankthick'></view></view>
+        <view class="weui-flex">
+            <image class='weui-flex__item' style='width:480rpx; height:300rpx;' src="../../images/excellent2.png" mode='aspectFit'></image>
+        </view>
+        <view class='weui-flex'><input class='weui-flex__item inputplace' type='text' placeholder='请输入你的手机号码' focus='true' bindinput='bindPhone'></input></view>  
+        <view class='weui-flex'><input class='weui-flex__item inputplace' placeholder='请输入密码' password='true' bindinput='bindPassword'></input></view>  
+        <view class='weui-flex'><view class='weui-flex__item blankthick'></view>  
+        </view>
+        <view class='weui-flex'><button class='weui-flex__item weui-button' type='primary' bindtap='login'>登录系统</button></view> 
+        <view class='weui-flex'><view class='weui-flex__item blankslim'></view></view>   
+        <view class='weui-flex'><button class='weui-flex__item weui-button' bindtap='register'>注册账号</button></view>
+        <view class='weui-flex'><view class='weui-flex__item blankslim'></view></view>   
+        <view class='weui-flex'><button class='weui-flex__item weui-button' bindtap='forgetPassword'>忘记密码</button></view>
+  </view>
+</view>

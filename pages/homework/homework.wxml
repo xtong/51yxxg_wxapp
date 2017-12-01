@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="time-container">
+  <view class="time-card {{item.screenshot ? 'has-img' : 'no-img'}}{{item.contentsize}}" wx:key="subject" wx:for-index="itemIndex"  wx:for="{{timeLine}}">
+      <navigator class="navigator {{item.screenshot ? 'has-img' : 'no-img'}}{{item.contentsize}}" url="../entry/entry?index={{itemIndex}}">
+        <view class="time-card-img-box" wx:if="{{item.screenshot}}">
+          <image class="time-card-img" style="width: 750rpx; height: 400rpx; background-color: #eeeeee;" mode="aspectFill" src="{{item.screenshot}}"></image>
+        </view>
+        <view  class="time-card-cotent-box">
+          <view class="time-card-top">
+            <view class="time-card-title">
+              <text class="time-card-title-subject">{{item.publishdate}}{{item.subject}}作业</text>
+              <text class="time-card-title-target">{{item.target}}</text>
+            </view>
+          </view>
+          <view class="time-card-sub">
+            <text>{{item.content}}</text>
+          </view>
+        </view>
+      </navigator>
+  </view>
+  <image class='addicon' style='width: 64rpx; height: 64rpx;' mode='aspectFit' src='../../images/add.png'></image>
+</view>

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/homework/homework",
+    "pages/exam/exam",
+    "pages/target/target",
+    "pages/notification/notification",
+    "pages/report/report",
+    "pages/entry/entry"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/homework/homework",
+        "text": "作业",
+        "iconPath": "images/homework.png",
+        "selectedIconPath": "images/homework_sel.png"
+      },
+      {
+        "pagePath": "pages/exam/exam",
+        "text": "考试",
+        "iconPath": "images/exam.png",
+        "selectedIconPath": "images/exam_sel.png"
+      },
+      {
+        "pagePath": "pages/target/target",
+        "text": "错题",
+        "iconPath": "images/target.png",
+        "selectedIconPath": "images/target_sel.png"
+      },
+      {
+        "pagePath": "pages/notification/notification",
+        "text": "通知",
+        "iconPath": "images/notification.png",
+        "selectedIconPath": "images/notification_sel.png"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "分析",
+        "iconPath": "images/report.png",
+        "selectedIconPath": "images/report_sel.png"
+      }
+    ]
+  }
+}

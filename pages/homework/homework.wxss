@@ -1,0 +1,100 @@
+.time-container {
+  background: #e0e0e0;
+  padding: 0;
+}
+.time-card {
+    background: pink;
+    width: 750rpx; 
+    background: #fff;
+    margin-bottom: 10rpx;
+    border-color: #989898;
+    border-style: solid;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 2rpx;
+}
+.time-card.has-imgs {
+    height: 610rpx;
+}
+.time-card.has-imgm {
+    height: 810rpx;
+}
+.time-card.has-imgl {
+    height: 1010rpx;
+}
+.time-card.no-imgs {
+    height: 210rpx;
+}
+.time-card.no-imgm {
+    height: 410rpx;
+}
+.time-card.no-imgl {
+    height: 610rpx;
+}
+.navigator.no-imgs {
+    height: 210rpx;
+}
+.navigator.no-imgm {
+    height: 410rpx;
+}
+.navigator.no-imgl {
+    height: 610rpx;
+}
+.navigator.has-imgs {
+    height: 610rpx;
+}
+.navigator.has-imgm {
+    height: 810rpx;
+}
+.navigator.has-imgl {
+    height: 1010rpx;
+}
+.time-card-img {
+  width: 750rpx;
+  height: 400rpx; 
+  background-color: #e0e0e0;
+}
+.time-card-cotent-box {
+  padding: 10rpx 20px;
+  height: 210rpx;
+  font-size: 10rpx;
+}
+.time-card-top {
+  display: flex;
+}
+.time-card-title {
+  width: 650rpx;
+  height: 60rpx;
+  margin-top: 15rpx;
+}
+.time-card-title-subject {
+  font-size: 30rpx;
+  line-height: 30rpx;
+}
+.time-card-title-target {
+  font-size: 30rpx;
+  line-height: 30rpx;
+  padding: 100rpx;
+}
+.time-card-sub {
+  color: #989898;
+  height: 160rpx;
+  font-size: 26rpx;
+  padding-top: 15rpx;
+}
+.time-card-avatar-box {
+  width: 50rpx;
+  padding-left: 10rpx;
+  justify-content: flex-end;
+}
+.time-card-avatar {
+  width: 40rpx;
+  height: 40rpx;
+}
+.time-card-action {
+  flex-shrink: 0;
+  display: flex;
+  width: 40rpx;
+  justify-content: flex-end;
+}
