@@ -33,22 +33,22 @@
     height: 650rpx;
 }
 .navigator.no-imgs {
-    height: 250rpx;
+    height: 180rpx;
 }
 .navigator.no-imgm {
-    height: 450rpx;
+    height: 350rpx;
 }
 .navigator.no-imgl {
-    height: 650rpx;
+    height: 580rpx;
 }
 .navigator.has-imgs {
-    height: 710rpx;
+    height: 610rpx;
 }
 .navigator.has-imgm {
-    height: 910rpx;
+    height: 780rpx;
 }
 .navigator.has-imgl {
-    height: 1110rpx;
+    height: 1010rpx;
 }
 .time-card-img {
   width: 750rpx;
@@ -97,4 +97,9 @@
   display: flex;
   width: 40rpx;
   justify-content: flex-end;
+}
+.time-card-bottom {
+  margin-left: 100rpx;
+  justify-content: space-between;
+  align-items: flex-start;
 }

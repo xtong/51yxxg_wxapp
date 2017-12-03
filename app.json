@@ -6,7 +6,8 @@
     "pages/target/target",
     "pages/notification/notification",
     "pages/report/report",
-    "pages/entry/entry"
+    "pages/entry/entry",
+    "pages/newhomework/newhomework"
   ],
   "window": {
     "backgroundTextStyle": "light",

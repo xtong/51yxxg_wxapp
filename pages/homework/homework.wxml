@@ -17,6 +17,11 @@
           </view>
         </view>
       </navigator>
+      <view class='weui-flex time-card-bottom'>
+        <view class='weui-flex__item'><switch  type='checkbox' bindchange='reviewHomework'>已批改</switch></view>
+        <view class='weui-flex__item'><button  size='mini' bindtap='replicateHomework'>复制重用</button></view>
+        <view class='weui-flex__item'><button  size='mini' bindtap='modifyHomework'>修改</button></view>
+      </view>
   </view>
-  <image class='addicon' style='width: 64rpx; height: 64rpx;' mode='aspectFit' src='../../images/add.png'></image>
+  <image class='iconhover' style='width: 64rpx; height: 64rpx;' mode='aspectFit' src='../../images/add.png' bindtap='newHomework'></image>
 </view>

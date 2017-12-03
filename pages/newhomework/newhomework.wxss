@@ -1,0 +1,23 @@
+/* pages/newhomework/newhomework.wxss */
+.homeworktxt {
+  background-color: white;
+  padding: 20rpx;
+  border-style: solid;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 2rpx;
+  border-color: #989898;
+  height: 200rpx;
+  margin-bottom: 5rpx;
+}
+.homeworkimg {
+  background-color: #dddddd;
+  border-style: solid;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 2rpx;
+  border-color: #989898;
+  height: 450rpx;
+}

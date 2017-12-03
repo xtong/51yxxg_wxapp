@@ -8,10 +8,18 @@ Page({
   },
   onLoad: function(options) {
   },
-  touchEntry: function(e) {
-    console.log('homework # touchEntry');
-    wx.navigateTo({
-      url: '../entry/entry?index=' + e.currentTarget.dataset.index
-    })
+  reviewHomework: function(e) {
+    console.log(e.detail.value);
   },
+  replicateHomework: function(e) {
+    console.log('homework # replicateHomework');
+  },
+  modifyHomework: function(e) {
+    console.log('homework # modifyHomework');
+  },
+  newHomework: function(e) {
+    wx.navigateTo({
+      url: '../newhomework/newhomework',
+    })
+  }
 })

@@ -1,0 +1,28 @@
+<!--pages/newhomework/newhomework.wxml-->
+<view class='page'>
+  <view class='page__bd page__bd_spacing'>
+    <view class='weui-flex'>
+      <textarea class='weui-flex__item homeworktxt' placeholder='请输入作业要求或者备注' maxlength='-1'></textarea>
+    </view>
+    <view class='weui-flex' wx:if='{{hwimg}}'>
+      <image class='weui-flex__item homeworkimg' src="{{hwimg}}" mode='aspectFit' placehoder='你也可以拍照' bindtap='takeHomeworkImg'></image>
+    </view>
+    <view wx:else>
+      <button class='weui-flex__item weui-button' type='primary' bindtap='takeHomeworkImg'>或，拍摄作业照片</button>
+    </view>
+    <view class='weui-flex'><view class='weui-flex__item blankthick'></view></view>
+    <view class='weui-flex'>
+      <picker class='weui-flex__item weui-picker' mode='date' value='{{expiration}}' start="2017-09-01" end="2030-09-01" bindchange="bindDateChange">
+        <view class='picker'>交作业时间：{{expiration}} （点击修改日期）</view>
+      </picker>
+    <view class='weui-flex'><view class='weui-flex__item blankslim'></view></view>
+    <view class='weui-flex'><view class='weui-flex__item blankslim'></view></view>
+    </view>
+    <view class='weui-flex'><view class='weui-flex__item blankthick'></view></view>
+    <view class='weui-flex'><text class='weui-flex__item weui-text'>选择要发送的班级：</text></view>
+    <view class='weui-flex' wx:key='classname' wx:for-index="{{itemIndex}}" wx:for="{{ownership}}">
+      <switch class='weui-flex__item' type="checkbox" bindchange='selectClass' checked="{{item.selected}}">{{item.classname}}</switch>
+    </view>
+  </view>
+  <image class='iconhover' style='width: 64rpx; height: 64rpx;' mode='aspectFit' src='../../images/send.png' bindtap='newHomework'></image>
+</view>
