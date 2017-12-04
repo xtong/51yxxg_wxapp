@@ -1,5 +1,5 @@
-var root = getApp()
-root.globalData.timeline.data
+var timeline = require('../../test/homework_test.js')
+
 Page({
   // data
   data: {
@@ -8,7 +8,7 @@ Page({
   // lifecycle
   onLoad: function (options) {
     this.setData({
-      item: root.globalData.timeline.data[Number(options.index)]
+      item: timeline.data[Number(options.index)]
     })
   },
   // methods

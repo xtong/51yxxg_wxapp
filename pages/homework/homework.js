@@ -1,12 +1,12 @@
 //homework.js
-const util = require('../../utils/util.js');
-var app = getApp();
+var timeline = require('../../test/homework_test.js')
 
 Page({
   data: {
-    timeLine: app.globalData.timeline.data,
+    timeLine: timeline.data,
   },
   onLoad: function(options) {
+    
   },
   reviewHomework: function(e) {
     console.log(e.detail.value);

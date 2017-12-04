@@ -1,5 +1,7 @@
 // pages/newhomework/newhomework.js
 var classlist = require('../../test/newhomework_test.js')
+var app = getApp()
+
 Page({
 
   /**
@@ -78,16 +80,19 @@ Page({
   },
 
   takeHomeworkImg: function(e) {
-    var _this = this; 
+    var _this = this;
     wx.chooseImage({
-      sizeType: ['compressed'],
       sourceType: ['album', 'camera'],
-      success: function(res) {
-        _this.setData({
-          hwimg: res.tempFilePaths
+      sizeType: ['original', 'compressed'],
+      count: 1,
+      success: function (res) {
+        app.globalData.rawImagePath = res.tempFilePaths;
+        wx.navigateTo({
+          url: '../wx-cropper/cropper',
         })
       },
-    });
+    })
+    
   },
   bindDateChange: function(e) {
     this.setData({
